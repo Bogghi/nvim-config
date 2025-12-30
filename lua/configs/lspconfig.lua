@@ -2,8 +2,8 @@ require("nvchad.configs.lspconfig").defaults()
 
 local nvlsp = require "nvchad.configs.lspconfig"
 
--- Setup HTML and CSS LSP servers
-local servers = { "html", "cssls", "emmet_ls" }
+-- Setup HTML, CSS, and Vue LSP servers
+local servers = { "html", "cssls", "emmet_ls", "vue_ls" }
 
 for _, lsp in ipairs(servers) do
   local config = {

@@ -20,10 +20,11 @@
    - `html` - HTML language server
    - `cssls` - CSS language server
    - `emmet-ls` - Emmet completion for HTML/CSS/Vue
+   - `vue-language-server` - Vue.js language server (Volar)
 
    Or run this command in Neovim:
    ```vim
-   :MasonInstall html-lsp css-lsp emmet-ls
+   :MasonInstall html-lsp css-lsp emmet-ls vue-language-server
    ```
 
 4. Restart Neovim to activate all LSP servers
